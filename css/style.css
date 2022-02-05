@@ -8,14 +8,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 body {
     font-size: 16px;
 }
+
 
 section {
     max-width: 100%;
     width: 50%;
 }
+
 
 main {
     display: flex;
@@ -28,10 +31,12 @@ main {
     padding: 0px 160px;
 }
 
+
 .screen {
     color: white;
     padding-right: 30px;
 }
+
 
 h1 {
     font-size: 50px;
@@ -39,10 +44,12 @@ h1 {
     margin-bottom: 25px;
 }
 
+
 .screen p {
     line-height: 25px;
     opacity: 0.9;
 }
+
 
 .head {
     width: 90%;
@@ -54,10 +61,12 @@ h1 {
     padding-right: 30px;
 }
 
+
 .head span {
     color: white;
     font-weight: 600;
 }
+
 
 .head p {
     color: white;
@@ -75,9 +84,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+
 #announcement b {
     color: white;
 }
+
 
 #principal {
     background-color: salmon;
@@ -93,6 +104,7 @@ h1 {
     color: brown;
 }
 
+
 #button {
     text-transform: uppercase;
     background-color: rgb(33, 141, 87);
@@ -106,6 +118,7 @@ h1 {
     font-weight: 600;
 }
 
+
 #form {
     width: 90%;
     background-color: white;
@@ -116,6 +129,7 @@ h1 {
     border-radius: 8px;
 }
 
+
 input {
     padding: 17px 25px;
     margin-bottom: 18px;
@@ -124,39 +138,47 @@ input {
     font-weight: 600;
 }
 
+
 form p {
     font-size: 15px;
     color: hsl(246, 25%, 77%);
     margin: auto;
 }
 
+
 form p span {
     color: salmon;
     font-weight: 700;
 }
+
 
 input:focus,
 button:focus {
     outline: none;
 }
 
+
 button:hover {
     opacity: 0.8;
 }
+
 
 @media(max-width: 992px) {
     form p {
         text-align: center;
     }
 
+
     h2 {
         font-size: 38px;
     }
+
 
     .head {
         padding: 15px 60px;
     }
 }
+
 
 .container {
     display: flex;
@@ -169,11 +191,13 @@ button:hover {
     box-shadow: 2px 2px 2px black;
 }
 
+
 .box {
     box-shadow: 2px 2px 2px black;
     margin-top: 30px;
     padding: 15px 15px;
 }
+
 
 .container {
     display: grid;
@@ -185,6 +209,7 @@ button:hover {
     grid-row-gap: 50px;
     grid-template-areas: "principal principal" "annoucement announcement" "user user" "button button";
 }
+
 
 .container {
     grid-gap: 50px;
@@ -201,17 +226,21 @@ button:hover {
     position: fixed;
 }
 
+
 .principal {
     grid-area: principal;
 }
+
 
 .announcement {
     grid-area: announcement;
 }
 
+
 .user {
     grid-area: user;
 }
+
 
 .button {
     grid-area: button;
