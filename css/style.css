@@ -77,3 +77,87 @@ h1 {
     padding: 5px;
     border-radius: 8px;
 }
+
+#announcement {
+    background-color: rgb(116, 67, 116);
+    color: black;
+    margin-bottom: 20px;
+}
+
+
+#announcement b {
+    color: white;
+}
+
+
+#principal {
+    background-color: salmon;
+    color: white;
+    text-align: left;
+    margin-top: -10px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#terms {
+    color: brown;
+}
+
+
+#button {
+    text-transform: uppercase;
+    background-color: rgb(33, 141, 87);
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    padding: 17px 25px;
+    margin-bottom: 18px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+#form {
+    width: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border-radius: 8px;
+}
+
+
+input {
+    padding: 17px 25px;
+    margin-bottom: 18px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+form p {
+    font-size: 15px;
+    color: hsl(246, 25%, 77%);
+    margin: auto;
+}
+
+
+form p span {
+    color: salmon;
+    font-weight: 700;
+}
+
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
